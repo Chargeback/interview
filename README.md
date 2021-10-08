@@ -20,10 +20,10 @@ Clone the codebase locally and run
 A local library needs us to design and implement a checkout system for a new branch. We have some models according to the
 spec they provided. The solution might require more models than this, the customer just provided a base spec for us to build from
 
-  a. Media
-  b. MediaCopy
-  b. User
-  c. Checkout
+  A. Media
+  B. MediaCopy
+  C. User
+  D. Checkout
 
 We need to:
 1. Model the relationships between these models to develop a usable checkout api.
