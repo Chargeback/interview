@@ -1,0 +1,2 @@
+class MediaCheckout < ApplicationRecord
+end

@@ -1,24 +1,32 @@
-# README
+# Sift Interview Sandbox
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repo is designed to test a variety of skills
 
-Things you may want to cover:
+1. Data Modeling
+2. Api Design
+3. Query Optimization
+4. Refactoring
+5. Testing
 
-* Ruby version
+## Setup
 
-* System dependencies
+Clone the codebase locally and run
+```
+  bundle install
+  rake db:create
+```
 
-* Configuration
+## Implementation
 
-* Database creation
+A local library needs us to design and implement a checkout system for a new branch. We have some models according to the
+spec they provided.
 
-* Database initialization
+  a. Media
+  b. MediaCopy
+  b. User
+  c. Checkout
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+We need to:
+1. Model the relationships between these models to develop a usable checkout api.
+2. Represent those relationships in our application models.
+3. Write queries to satisfy the endpoints defined by our application controllers. (They don't need to be restful)
