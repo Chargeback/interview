@@ -26,7 +26,7 @@ spec they provided. The solution might require more models than this, the custom
   D. Checkout
 
 We need to:
-1. Model the relationships between these models to develop a usable checkout api.
+1. Implement the relationships between these models to develop a usable checkout api.
 2. Represent those relationships in our application models.
 3. Write queries to satisfy the endpoints defined by our application controllers. (They don't need to be restful)
 
