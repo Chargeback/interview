@@ -30,6 +30,7 @@ We need to:
 2. Represent those relationships in our application models.
 3. Write queries to satisfy the endpoints defined by our application controllers. (They don't need to be restful)
 
-Bonus: Authentication
-Bonus: Setup Scripts
-Bonus: CRUD Operations for controllers 
+Bonus:
+1. Authentication
+1. Setup Scripts
+1. CRUD Operations for controllers
