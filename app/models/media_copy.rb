@@ -1,0 +1,2 @@
+class MediaCopy < ApplicationRecord
+end
